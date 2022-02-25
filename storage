@@ -1,0 +1,6 @@
+   <p>
+  <p id="rnumber"></p>
+<script>
+  let rnumber = math.flaw(math.random)x*x);
+  document.getElementBuId("rnumber").HTML = rnumber 
+  <script>
