@@ -21,7 +21,9 @@
     <img scr="dnd dice.jpeg">
     <p>
   <p id="rnumber"></p>
+  <button onclick ="rannum()"> Click for number </button>
 <script>
+  function rannum() {
   let rnumber = Math.floor(Math.random()*4+1);
   document.getElementById("rnumber").innerHTML = rnumber; 
   </script>
