@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<style>
+#random {
+  width: 50px;
+  height:50px;
+  }
+  body {
+  background-color: blue;
+  }
+  a{
+    color: green;
+  }
+}
+</style>
+<a href="index.html">
+          back
+         <p>
+</a>
+         this is ware you can role dice
+        <img scr="sliver.jpeg">
+            <img scr="dnd dice.jpeg">
+            <p>
+          <p id="rnumber5"></p>
+          <button onclick ="rannum()"> Click for number d12 </button>
+        <script>
+          function rannum() {
+          let rnumber = Math.floor(Math.random()*12+1);
+          document.getElementById("rnumber5").innerHTML = rnumber;
+}
+          </script>
